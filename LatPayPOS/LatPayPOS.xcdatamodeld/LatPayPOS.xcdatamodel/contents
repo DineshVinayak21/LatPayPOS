@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Categories" representedClassName="Categories" syncable="YES">
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Discounts" representedClassName="Discounts" syncable="YES">
+        <attribute name="discountMaximumPrice" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="discountName" optional="YES" attributeType="String"/>
+        <attribute name="discountPercentage" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="FlatPrice" representedClassName="FlatPrice" syncable="YES">
+        <attribute name="couponName" optional="YES" attributeType="String"/>
+        <attribute name="couponPrice" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="LpsAppUsers" representedClassName="LpsAppUsers" syncable="YES">
+        <attribute name="appUsersEmail" optional="YES" attributeType="String"/>
+        <attribute name="appUsersMobile" optional="YES" attributeType="String"/>
+        <attribute name="appUsersPassword" optional="YES" attributeType="String"/>
+        <attribute name="appUsersRole" optional="YES" attributeType="String"/>
+        <attribute name="appUsersStatus" optional="YES" attributeType="String"/>
+        <attribute name="appUsersUserName" optional="YES" attributeType="String"/>
+        <attribute name="lpsAppUsersID" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="LpsCfgAppConfig" representedClassName="LpsCfgAppConfig" syncable="YES">
+        <attribute name="configDate" optional="YES" attributeType="String"/>
+        <attribute name="currency" optional="YES" attributeType="String"/>
+        <attribute name="deviceReader" optional="YES" attributeType="String"/>
+        <attribute name="lpsCfgAppConfig" optional="YES" attributeType="String"/>
+        <attribute name="merchantId" optional="YES" attributeType="String"/>
+        <attribute name="responseSecret" optional="YES" attributeType="String"/>
+        <attribute name="storeId" optional="YES" attributeType="String"/>
+        <attribute name="terminalId" optional="YES" attributeType="String"/>
+        <attribute name="terminalSecret" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Products" representedClassName="Products" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="mainCategory" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Receipt" representedClassName="Receipt" syncable="YES">
+        <attribute name="calculatedPrice" optional="YES" attributeType="String"/>
+        <attribute name="couponName" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="discountedPrice" optional="YES" attributeType="String"/>
+        <attribute name="finalPrice" optional="YES" attributeType="String"/>
+        <attribute name="productName" optional="YES" attributeType="String"/>
+        <attribute name="singleProductPrice" optional="YES" attributeType="String"/>
+        <attribute name="totalCount" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Categories" positionX="-63" positionY="-18" width="128" height="58"/>
+        <element name="Discounts" positionX="-27" positionY="126" width="128" height="88"/>
+        <element name="FlatPrice" positionX="-18" positionY="135" width="128" height="73"/>
+        <element name="LpsAppUsers" positionX="9" positionY="153" width="128" height="148"/>
+        <element name="LpsCfgAppConfig" positionX="-27" positionY="126" width="128" height="178"/>
+        <element name="Products" positionX="-54" positionY="-9" width="128" height="118"/>
+        <element name="Receipt" positionX="-27" positionY="126" width="128" height="163"/>
+    </elements>
+</model>

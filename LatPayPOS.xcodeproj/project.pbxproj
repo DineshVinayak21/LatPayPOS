@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080003A124988E6500EB17EE /* ExtensionForApplyCouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080003A024988E6500EB17EE /* ExtensionForApplyCouponViewController.swift */; };
+		081AB55C2494F9E3005DB1DE /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081AB55B2494F9E3005DB1DE /* AddProductViewController.swift */; };
+		081AB55E2494F9F6005DB1DE /* AddDiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081AB55D2494F9F6005DB1DE /* AddDiscountViewController.swift */; };
+		081AB5602494FA05005DB1DE /* AddFlatPriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081AB55F2494FA05005DB1DE /* AddFlatPriceViewController.swift */; };
+		081AB5622494FE5C005DB1DE /* ExtensionForAddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081AB5612494FE5C005DB1DE /* ExtensionForAddProductViewController.swift */; };
+		081AB5642494FE7E005DB1DE /* ExtensionForAddDiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081AB5632494FE7E005DB1DE /* ExtensionForAddDiscountViewController.swift */; };
+		081AB5662494FE90005DB1DE /* ExtensionForAddFlatPriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081AB5652494FE90005DB1DE /* ExtensionForAddFlatPriceViewController.swift */; };
+		082D7B2624945805003D8336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B2524945805003D8336 /* AppDelegate.swift */; };
+		082D7B2824945805003D8336 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B2724945805003D8336 /* SceneDelegate.swift */; };
+		082D7B2A24945805003D8336 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B2924945805003D8336 /* ViewController.swift */; };
+		082D7B2D24945805003D8336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082D7B2B24945805003D8336 /* Main.storyboard */; };
+		082D7B3024945805003D8336 /* LatPayPOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B2E24945805003D8336 /* LatPayPOS.xcdatamodeld */; };
+		082D7B3224945807003D8336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082D7B3124945807003D8336 /* Assets.xcassets */; };
+		082D7B3524945807003D8336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082D7B3324945807003D8336 /* LaunchScreen.storyboard */; };
+		082D7B3D24945B3F003D8336 /* AddItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B3C24945B3F003D8336 /* AddItemsViewController.swift */; };
+		082D7B3F24945B53003D8336 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B3E24945B53003D8336 /* ReceiptViewController.swift */; };
+		082D7B4424946401003D8336 /* ExtenstionForViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B4324946401003D8336 /* ExtenstionForViewController.swift */; };
+		082D7B462494641E003D8336 /* ExtentionForAddItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B452494641E003D8336 /* ExtentionForAddItemsViewController.swift */; };
+		082D7B482494643F003D8336 /* ExtensionForReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B472494643F003D8336 /* ExtensionForReceiptViewController.swift */; };
+		082D7B4F249469EF003D8336 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B4B249469EE003D8336 /* iOSDropDown.swift */; };
+		082D7B50249469EF003D8336 /* SuccessMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B4C249469EE003D8336 /* SuccessMessageView.swift */; };
+		082D7B51249469EF003D8336 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B4D249469EE003D8336 /* ActivityIndicator.swift */; };
+		082D7B52249469EF003D8336 /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B4E249469EE003D8336 /* FloatingLabelTextField.swift */; };
+		082D7B552494749E003D8336 /* itemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B542494749E003D8336 /* itemsTableViewCell.swift */; };
+		082D7B5724948E3E003D8336 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B5624948E3E003D8336 /* CategoriesViewController.swift */; };
+		082D7B5924948E4A003D8336 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B5824948E4A003D8336 /* ProductsViewController.swift */; };
+		082D7B5B24948E58003D8336 /* DiscountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B5A24948E58003D8336 /* DiscountsViewController.swift */; };
+		082D7B5D24948E65003D8336 /* FlatPriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B5C24948E65003D8336 /* FlatPriceViewController.swift */; };
+		082D7B5F24948FCF003D8336 /* ExtensionForCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B5E24948FCF003D8336 /* ExtensionForCategoriesViewController.swift */; };
+		082D7B6124948FE4003D8336 /* ExtensionForProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B6024948FE4003D8336 /* ExtensionForProductsViewController.swift */; };
+		082D7B6324948FF3003D8336 /* ExtensionForDiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B6224948FF3003D8336 /* ExtensionForDiscountViewController.swift */; };
+		082D7B6524949007003D8336 /* ExtensionForFlatPriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B6424949007003D8336 /* ExtensionForFlatPriceViewController.swift */; };
+		082D7B6824949C97003D8336 /* categoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B6724949C97003D8336 /* categoryTableViewCell.swift */; };
+		082D7B6A24949CA7003D8336 /* productTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B6924949CA7003D8336 /* productTableViewCell.swift */; };
+		082D7B6C24949CBB003D8336 /* discountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B6B24949CBB003D8336 /* discountTableViewCell.swift */; };
+		082D7B6E24949CCF003D8336 /* flatPriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B6D24949CCF003D8336 /* flatPriceTableViewCell.swift */; };
+		082D7B702494B07F003D8336 /* receiptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D7B6F2494B07F003D8336 /* receiptTableViewCell.swift */; };
+		083BC1F024960C500015043E /* UpdateProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083BC1EF24960C500015043E /* UpdateProductViewController.swift */; };
+		083BC1F224960C650015043E /* ExtensionForUpdateProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083BC1F124960C650015043E /* ExtensionForUpdateProductViewController.swift */; };
+		0863DF2524959BE300C35B79 /* LpsAppUsers+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863DF1924959BE300C35B79 /* LpsAppUsers+CoreDataClass.swift */; };
+		0863DF2624959BE300C35B79 /* LpsAppUsers+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863DF1A24959BE300C35B79 /* LpsAppUsers+CoreDataProperties.swift */; };
+		0863DF2724959BE300C35B79 /* Categories+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863DF1B24959BE300C35B79 /* Categories+CoreDataClass.swift */; };
+		0863DF2824959BE300C35B79 /* Categories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863DF1C24959BE300C35B79 /* Categories+CoreDataProperties.swift */; };
+		0863DF2924959BE300C35B79 /* FlatPrice+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863DF1D24959BE300C35B79 /* FlatPrice+CoreDataClass.swift */; };
+		0863DF2A24959BE300C35B79 /* FlatPrice+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863DF1E24959BE300C35B79 /* FlatPrice+CoreDataProperties.swift */; };
+		0863DF2B24959BE300C35B79 /* Discounts+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863DF1F24959BE300C35B79 /* Discounts+CoreDataClass.swift */; };
+		0863DF2C24959BE300C35B79 /* Discounts+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863DF2024959BE300C35B79 /* Discounts+CoreDataProperties.swift */; };
+		0863DF2D24959BE300C35B79 /* Products+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863DF2124959BE300C35B79 /* Products+CoreDataClass.swift */; };
+		0863DF2E24959BE300C35B79 /* Products+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863DF2224959BE300C35B79 /* Products+CoreDataProperties.swift */; };
+		0863DF2F24959BE300C35B79 /* LpsCfgAppConfig+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863DF2324959BE300C35B79 /* LpsCfgAppConfig+CoreDataClass.swift */; };
+		0863DF3024959BE300C35B79 /* LpsCfgAppConfig+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0863DF2424959BE300C35B79 /* LpsCfgAppConfig+CoreDataProperties.swift */; };
+		08C045C32497384500355007 /* ApplyCouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C045C22497384500355007 /* ApplyCouponViewController.swift */; };
+		08C045C724973BEA00355007 /* applyDiscountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C045C624973BEA00355007 /* applyDiscountTableViewCell.swift */; };
+		08C045C924973BFB00355007 /* applyPriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C045C824973BFB00355007 /* applyPriceTableViewCell.swift */; };
+		08C1704424966BC60055F526 /* AddToCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C1704324966BC60055F526 /* AddToCartViewController.swift */; };
+		08C1704624966BD40055F526 /* BillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C1704524966BD40055F526 /* BillViewController.swift */; };
+		08C1704824966BE60055F526 /* SmsMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C1704724966BE60055F526 /* SmsMailViewController.swift */; };
+		08C1704A24966BF40055F526 /* DetailedReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C1704924966BF40055F526 /* DetailedReceiptViewController.swift */; };
+		08C1704C24966C120055F526 /* ExtensionForAddToCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C1704B24966C120055F526 /* ExtensionForAddToCartViewController.swift */; };
+		08C1704E24966C250055F526 /* ExtensionForBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C1704D24966C250055F526 /* ExtensionForBillViewController.swift */; };
+		08C1705024966C360055F526 /* ExtensionForSmsMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C1704F24966C360055F526 /* ExtensionForSmsMailViewController.swift */; };
+		08C1705224966C4C0055F526 /* ExtensionForDetailedReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C1705124966C4C0055F526 /* ExtensionForDetailedReceiptViewController.swift */; };
+		08CF8CB32497073F005CD53C /* cartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CF8CB22497073F005CD53C /* cartTableViewCell.swift */; };
+		08DC79FF2497B0B600465B5D /* Receipt+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DC79FD2497B0B600465B5D /* Receipt+CoreDataClass.swift */; };
+		08DC7A002497B0B600465B5D /* Receipt+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DC79FE2497B0B600465B5D /* Receipt+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		080003A024988E6500EB17EE /* ExtensionForApplyCouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForApplyCouponViewController.swift; sourceTree = "<group>"; };
+		081AB55B2494F9E3005DB1DE /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
+		081AB55D2494F9F6005DB1DE /* AddDiscountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDiscountViewController.swift; sourceTree = "<group>"; };
+		081AB55F2494FA05005DB1DE /* AddFlatPriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFlatPriceViewController.swift; sourceTree = "<group>"; };
+		081AB5612494FE5C005DB1DE /* ExtensionForAddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForAddProductViewController.swift; sourceTree = "<group>"; };
+		081AB5632494FE7E005DB1DE /* ExtensionForAddDiscountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForAddDiscountViewController.swift; sourceTree = "<group>"; };
+		081AB5652494FE90005DB1DE /* ExtensionForAddFlatPriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForAddFlatPriceViewController.swift; sourceTree = "<group>"; };
+		082D7B2224945805003D8336 /* LatPayPOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LatPayPOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		082D7B2524945805003D8336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		082D7B2724945805003D8336 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		082D7B2924945805003D8336 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		082D7B2C24945805003D8336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		082D7B2F24945805003D8336 /* LatPayPOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LatPayPOS.xcdatamodel; sourceTree = "<group>"; };
+		082D7B3124945807003D8336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		082D7B3424945807003D8336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		082D7B3624945807003D8336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		082D7B3C24945B3F003D8336 /* AddItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemsViewController.swift; sourceTree = "<group>"; };
+		082D7B3E24945B53003D8336 /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
+		082D7B4324946401003D8336 /* ExtenstionForViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtenstionForViewController.swift; sourceTree = "<group>"; };
+		082D7B452494641E003D8336 /* ExtentionForAddItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionForAddItemsViewController.swift; sourceTree = "<group>"; };
+		082D7B472494643F003D8336 /* ExtensionForReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForReceiptViewController.swift; sourceTree = "<group>"; };
+		082D7B4B249469EE003D8336 /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		082D7B4C249469EE003D8336 /* SuccessMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessMessageView.swift; sourceTree = "<group>"; };
+		082D7B4D249469EE003D8336 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		082D7B4E249469EE003D8336 /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
+		082D7B542494749E003D8336 /* itemsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemsTableViewCell.swift; sourceTree = "<group>"; };
+		082D7B5624948E3E003D8336 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		082D7B5824948E4A003D8336 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		082D7B5A24948E58003D8336 /* DiscountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsViewController.swift; sourceTree = "<group>"; };
+		082D7B5C24948E65003D8336 /* FlatPriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatPriceViewController.swift; sourceTree = "<group>"; };
+		082D7B5E24948FCF003D8336 /* ExtensionForCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForCategoriesViewController.swift; sourceTree = "<group>"; };
+		082D7B6024948FE4003D8336 /* ExtensionForProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForProductsViewController.swift; sourceTree = "<group>"; };
+		082D7B6224948FF3003D8336 /* ExtensionForDiscountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForDiscountViewController.swift; sourceTree = "<group>"; };
+		082D7B6424949007003D8336 /* ExtensionForFlatPriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForFlatPriceViewController.swift; sourceTree = "<group>"; };
+		082D7B6724949C97003D8336 /* categoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryTableViewCell.swift; sourceTree = "<group>"; };
+		082D7B6924949CA7003D8336 /* productTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productTableViewCell.swift; sourceTree = "<group>"; };
+		082D7B6B24949CBB003D8336 /* discountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discountTableViewCell.swift; sourceTree = "<group>"; };
+		082D7B6D24949CCF003D8336 /* flatPriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flatPriceTableViewCell.swift; sourceTree = "<group>"; };
+		082D7B6F2494B07F003D8336 /* receiptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = receiptTableViewCell.swift; sourceTree = "<group>"; };
+		083BC1EF24960C500015043E /* UpdateProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProductViewController.swift; sourceTree = "<group>"; };
+		083BC1F124960C650015043E /* ExtensionForUpdateProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForUpdateProductViewController.swift; sourceTree = "<group>"; };
+		0863DF1924959BE300C35B79 /* LpsAppUsers+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LpsAppUsers+CoreDataClass.swift"; path = "LatPayPOS/LpsAppUsers+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0863DF1A24959BE300C35B79 /* LpsAppUsers+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LpsAppUsers+CoreDataProperties.swift"; path = "LatPayPOS/LpsAppUsers+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0863DF1B24959BE300C35B79 /* Categories+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Categories+CoreDataClass.swift"; path = "LatPayPOS/Categories+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0863DF1C24959BE300C35B79 /* Categories+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Categories+CoreDataProperties.swift"; path = "LatPayPOS/Categories+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0863DF1D24959BE300C35B79 /* FlatPrice+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FlatPrice+CoreDataClass.swift"; path = "LatPayPOS/FlatPrice+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0863DF1E24959BE300C35B79 /* FlatPrice+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FlatPrice+CoreDataProperties.swift"; path = "LatPayPOS/FlatPrice+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0863DF1F24959BE300C35B79 /* Discounts+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Discounts+CoreDataClass.swift"; path = "LatPayPOS/Discounts+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0863DF2024959BE300C35B79 /* Discounts+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Discounts+CoreDataProperties.swift"; path = "LatPayPOS/Discounts+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0863DF2124959BE300C35B79 /* Products+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Products+CoreDataClass.swift"; path = "LatPayPOS/Products+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0863DF2224959BE300C35B79 /* Products+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Products+CoreDataProperties.swift"; path = "LatPayPOS/Products+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0863DF2324959BE300C35B79 /* LpsCfgAppConfig+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LpsCfgAppConfig+CoreDataClass.swift"; path = "LatPayPOS/LpsCfgAppConfig+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0863DF2424959BE300C35B79 /* LpsCfgAppConfig+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LpsCfgAppConfig+CoreDataProperties.swift"; path = "LatPayPOS/LpsCfgAppConfig+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		08C045C22497384500355007 /* ApplyCouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyCouponViewController.swift; sourceTree = "<group>"; };
+		08C045C624973BEA00355007 /* applyDiscountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applyDiscountTableViewCell.swift; sourceTree = "<group>"; };
+		08C045C824973BFB00355007 /* applyPriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applyPriceTableViewCell.swift; sourceTree = "<group>"; };
+		08C1704324966BC60055F526 /* AddToCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartViewController.swift; sourceTree = "<group>"; };
+		08C1704524966BD40055F526 /* BillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillViewController.swift; sourceTree = "<group>"; };
+		08C1704724966BE60055F526 /* SmsMailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsMailViewController.swift; sourceTree = "<group>"; };
+		08C1704924966BF40055F526 /* DetailedReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedReceiptViewController.swift; sourceTree = "<group>"; };
+		08C1704B24966C120055F526 /* ExtensionForAddToCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForAddToCartViewController.swift; sourceTree = "<group>"; };
+		08C1704D24966C250055F526 /* ExtensionForBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForBillViewController.swift; sourceTree = "<group>"; };
+		08C1704F24966C360055F526 /* ExtensionForSmsMailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForSmsMailViewController.swift; sourceTree = "<group>"; };
+		08C1705124966C4C0055F526 /* ExtensionForDetailedReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForDetailedReceiptViewController.swift; sourceTree = "<group>"; };
+		08CF8CB22497073F005CD53C /* cartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartTableViewCell.swift; sourceTree = "<group>"; };
+		08DC79FD2497B0B600465B5D /* Receipt+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Receipt+CoreDataClass.swift"; path = "LatPayPOS/Receipt+CoreDataClass.swift"; sourceTree = "<group>"; };
+		08DC79FE2497B0B600465B5D /* Receipt+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Receipt+CoreDataProperties.swift"; path = "LatPayPOS/Receipt+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		082D7B1F24945805003D8336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082D7B1924945805003D8336 = {
+			isa = PBXGroup;
+			children = (
+				08DC79FD2497B0B600465B5D /* Receipt+CoreDataClass.swift */,
+				08DC79FE2497B0B600465B5D /* Receipt+CoreDataProperties.swift */,
+				0863DF1924959BE300C35B79 /* LpsAppUsers+CoreDataClass.swift */,
+				0863DF1A24959BE300C35B79 /* LpsAppUsers+CoreDataProperties.swift */,
+				0863DF2324959BE300C35B79 /* LpsCfgAppConfig+CoreDataClass.swift */,
+				0863DF2424959BE300C35B79 /* LpsCfgAppConfig+CoreDataProperties.swift */,
+				0863DF1B24959BE300C35B79 /* Categories+CoreDataClass.swift */,
+				0863DF1C24959BE300C35B79 /* Categories+CoreDataProperties.swift */,
+				0863DF2124959BE300C35B79 /* Products+CoreDataClass.swift */,
+				0863DF2224959BE300C35B79 /* Products+CoreDataProperties.swift */,
+				0863DF1F24959BE300C35B79 /* Discounts+CoreDataClass.swift */,
+				0863DF2024959BE300C35B79 /* Discounts+CoreDataProperties.swift */,
+				0863DF1D24959BE300C35B79 /* FlatPrice+CoreDataClass.swift */,
+				0863DF1E24959BE300C35B79 /* FlatPrice+CoreDataProperties.swift */,
+				082D7B2424945805003D8336 /* LatPayPOS */,
+				082D7B2324945805003D8336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		082D7B2324945805003D8336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				082D7B2224945805003D8336 /* LatPayPOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		082D7B2424945805003D8336 /* LatPayPOS */ = {
+			isa = PBXGroup;
+			children = (
+				082D7B2524945805003D8336 /* AppDelegate.swift */,
+				082D7B2724945805003D8336 /* SceneDelegate.swift */,
+				082D7B2B24945805003D8336 /* Main.storyboard */,
+				082D7B3124945807003D8336 /* Assets.xcassets */,
+				082D7B3324945807003D8336 /* LaunchScreen.storyboard */,
+				082D7B3624945807003D8336 /* Info.plist */,
+				082D7B2E24945805003D8336 /* LatPayPOS.xcdatamodeld */,
+				082D7B4124945B88003D8336 /* ViewControllers */,
+				082D7B42249463B2003D8336 /* Extention ViewControllers */,
+				082D7B6624949B58003D8336 /* TableView Cells */,
+				082D7B53249469FC003D8336 /* Additional Class Files */,
+			);
+			path = LatPayPOS;
+			sourceTree = "<group>";
+		};
+		082D7B4124945B88003D8336 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				082D7B2924945805003D8336 /* ViewController.swift */,
+				082D7B3C24945B3F003D8336 /* AddItemsViewController.swift */,
+				082D7B3E24945B53003D8336 /* ReceiptViewController.swift */,
+				082D7B5624948E3E003D8336 /* CategoriesViewController.swift */,
+				082D7B5824948E4A003D8336 /* ProductsViewController.swift */,
+				082D7B5A24948E58003D8336 /* DiscountsViewController.swift */,
+				082D7B5C24948E65003D8336 /* FlatPriceViewController.swift */,
+				081AB55B2494F9E3005DB1DE /* AddProductViewController.swift */,
+				083BC1EF24960C500015043E /* UpdateProductViewController.swift */,
+				081AB55D2494F9F6005DB1DE /* AddDiscountViewController.swift */,
+				081AB55F2494FA05005DB1DE /* AddFlatPriceViewController.swift */,
+				08C1704924966BF40055F526 /* DetailedReceiptViewController.swift */,
+				08C1704724966BE60055F526 /* SmsMailViewController.swift */,
+				08C1704524966BD40055F526 /* BillViewController.swift */,
+				08C1704324966BC60055F526 /* AddToCartViewController.swift */,
+				08C045C22497384500355007 /* ApplyCouponViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		082D7B42249463B2003D8336 /* Extention ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				082D7B4324946401003D8336 /* ExtenstionForViewController.swift */,
+				082D7B452494641E003D8336 /* ExtentionForAddItemsViewController.swift */,
+				082D7B472494643F003D8336 /* ExtensionForReceiptViewController.swift */,
+				082D7B5E24948FCF003D8336 /* ExtensionForCategoriesViewController.swift */,
+				082D7B6024948FE4003D8336 /* ExtensionForProductsViewController.swift */,
+				082D7B6224948FF3003D8336 /* ExtensionForDiscountViewController.swift */,
+				082D7B6424949007003D8336 /* ExtensionForFlatPriceViewController.swift */,
+				081AB5612494FE5C005DB1DE /* ExtensionForAddProductViewController.swift */,
+				083BC1F124960C650015043E /* ExtensionForUpdateProductViewController.swift */,
+				081AB5632494FE7E005DB1DE /* ExtensionForAddDiscountViewController.swift */,
+				081AB5652494FE90005DB1DE /* ExtensionForAddFlatPriceViewController.swift */,
+				08C1705124966C4C0055F526 /* ExtensionForDetailedReceiptViewController.swift */,
+				08C1704F24966C360055F526 /* ExtensionForSmsMailViewController.swift */,
+				08C1704D24966C250055F526 /* ExtensionForBillViewController.swift */,
+				08C1704B24966C120055F526 /* ExtensionForAddToCartViewController.swift */,
+				080003A024988E6500EB17EE /* ExtensionForApplyCouponViewController.swift */,
+			);
+			path = "Extention ViewControllers";
+			sourceTree = "<group>";
+		};
+		082D7B53249469FC003D8336 /* Additional Class Files */ = {
+			isa = PBXGroup;
+			children = (
+				082D7B4D249469EE003D8336 /* ActivityIndicator.swift */,
+				082D7B4E249469EE003D8336 /* FloatingLabelTextField.swift */,
+				082D7B4C249469EE003D8336 /* SuccessMessageView.swift */,
+				082D7B4B249469EE003D8336 /* iOSDropDown.swift */,
+			);
+			path = "Additional Class Files";
+			sourceTree = "<group>";
+		};
+		082D7B6624949B58003D8336 /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				082D7B542494749E003D8336 /* itemsTableViewCell.swift */,
+				082D7B6F2494B07F003D8336 /* receiptTableViewCell.swift */,
+				082D7B6724949C97003D8336 /* categoryTableViewCell.swift */,
+				082D7B6924949CA7003D8336 /* productTableViewCell.swift */,
+				082D7B6B24949CBB003D8336 /* discountTableViewCell.swift */,
+				082D7B6D24949CCF003D8336 /* flatPriceTableViewCell.swift */,
+				08CF8CB22497073F005CD53C /* cartTableViewCell.swift */,
+				08C045C624973BEA00355007 /* applyDiscountTableViewCell.swift */,
+				08C045C824973BFB00355007 /* applyPriceTableViewCell.swift */,
+			);
+			path = "TableView Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		082D7B2124945805003D8336 /* LatPayPOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082D7B3924945807003D8336 /* Build configuration list for PBXNativeTarget "LatPayPOS" */;
+			buildPhases = (
+				082D7B1E24945805003D8336 /* Sources */,
+				082D7B1F24945805003D8336 /* Frameworks */,
+				082D7B2024945805003D8336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LatPayPOS;
+			productName = LatPayPOS;
+			productReference = 082D7B2224945805003D8336 /* LatPayPOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		082D7B1A24945805003D8336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = dss;
+				TargetAttributes = {
+					082D7B2124945805003D8336 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 082D7B1D24945805003D8336 /* Build configuration list for PBXProject "LatPayPOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 082D7B1924945805003D8336;
+			productRefGroup = 082D7B2324945805003D8336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				082D7B2124945805003D8336 /* LatPayPOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		082D7B2024945805003D8336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082D7B3524945807003D8336 /* LaunchScreen.storyboard in Resources */,
+				082D7B3224945807003D8336 /* Assets.xcassets in Resources */,
+				082D7B2D24945805003D8336 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		082D7B1E24945805003D8336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0863DF2B24959BE300C35B79 /* Discounts+CoreDataClass.swift in Sources */,
+				080003A124988E6500EB17EE /* ExtensionForApplyCouponViewController.swift in Sources */,
+				081AB55E2494F9F6005DB1DE /* AddDiscountViewController.swift in Sources */,
+				081AB5622494FE5C005DB1DE /* ExtensionForAddProductViewController.swift in Sources */,
+				081AB5662494FE90005DB1DE /* ExtensionForAddFlatPriceViewController.swift in Sources */,
+				082D7B52249469EF003D8336 /* FloatingLabelTextField.swift in Sources */,
+				08C1705024966C360055F526 /* ExtensionForSmsMailViewController.swift in Sources */,
+				08C1704C24966C120055F526 /* ExtensionForAddToCartViewController.swift in Sources */,
+				082D7B6524949007003D8336 /* ExtensionForFlatPriceViewController.swift in Sources */,
+				082D7B482494643F003D8336 /* ExtensionForReceiptViewController.swift in Sources */,
+				08C1704824966BE60055F526 /* SmsMailViewController.swift in Sources */,
+				08C045C32497384500355007 /* ApplyCouponViewController.swift in Sources */,
+				08C045C724973BEA00355007 /* applyDiscountTableViewCell.swift in Sources */,
+				08C1704A24966BF40055F526 /* DetailedReceiptViewController.swift in Sources */,
+				082D7B2A24945805003D8336 /* ViewController.swift in Sources */,
+				082D7B4F249469EF003D8336 /* iOSDropDown.swift in Sources */,
+				0863DF2D24959BE300C35B79 /* Products+CoreDataClass.swift in Sources */,
+				082D7B6324948FF3003D8336 /* ExtensionForDiscountViewController.swift in Sources */,
+				082D7B50249469EF003D8336 /* SuccessMessageView.swift in Sources */,
+				0863DF2624959BE300C35B79 /* LpsAppUsers+CoreDataProperties.swift in Sources */,
+				082D7B5D24948E65003D8336 /* FlatPriceViewController.swift in Sources */,
+				08C1704E24966C250055F526 /* ExtensionForBillViewController.swift in Sources */,
+				08C1705224966C4C0055F526 /* ExtensionForDetailedReceiptViewController.swift in Sources */,
+				082D7B6C24949CBB003D8336 /* discountTableViewCell.swift in Sources */,
+				08C045C924973BFB00355007 /* applyPriceTableViewCell.swift in Sources */,
+				082D7B51249469EF003D8336 /* ActivityIndicator.swift in Sources */,
+				0863DF2F24959BE300C35B79 /* LpsCfgAppConfig+CoreDataClass.swift in Sources */,
+				0863DF2C24959BE300C35B79 /* Discounts+CoreDataProperties.swift in Sources */,
+				082D7B6A24949CA7003D8336 /* productTableViewCell.swift in Sources */,
+				083BC1F024960C500015043E /* UpdateProductViewController.swift in Sources */,
+				0863DF2724959BE300C35B79 /* Categories+CoreDataClass.swift in Sources */,
+				082D7B4424946401003D8336 /* ExtenstionForViewController.swift in Sources */,
+				082D7B462494641E003D8336 /* ExtentionForAddItemsViewController.swift in Sources */,
+				082D7B702494B07F003D8336 /* receiptTableViewCell.swift in Sources */,
+				082D7B6824949C97003D8336 /* categoryTableViewCell.swift in Sources */,
+				0863DF2A24959BE300C35B79 /* FlatPrice+CoreDataProperties.swift in Sources */,
+				082D7B2624945805003D8336 /* AppDelegate.swift in Sources */,
+				082D7B2824945805003D8336 /* SceneDelegate.swift in Sources */,
+				0863DF2E24959BE300C35B79 /* Products+CoreDataProperties.swift in Sources */,
+				083BC1F224960C650015043E /* ExtensionForUpdateProductViewController.swift in Sources */,
+				082D7B5924948E4A003D8336 /* ProductsViewController.swift in Sources */,
+				082D7B3F24945B53003D8336 /* ReceiptViewController.swift in Sources */,
+				082D7B3D24945B3F003D8336 /* AddItemsViewController.swift in Sources */,
+				0863DF2824959BE300C35B79 /* Categories+CoreDataProperties.swift in Sources */,
+				082D7B6124948FE4003D8336 /* ExtensionForProductsViewController.swift in Sources */,
+				0863DF2524959BE300C35B79 /* LpsAppUsers+CoreDataClass.swift in Sources */,
+				081AB5602494FA05005DB1DE /* AddFlatPriceViewController.swift in Sources */,
+				08DC79FF2497B0B600465B5D /* Receipt+CoreDataClass.swift in Sources */,
+				082D7B5B24948E58003D8336 /* DiscountsViewController.swift in Sources */,
+				081AB55C2494F9E3005DB1DE /* AddProductViewController.swift in Sources */,
+				08DC7A002497B0B600465B5D /* Receipt+CoreDataProperties.swift in Sources */,
+				082D7B552494749E003D8336 /* itemsTableViewCell.swift in Sources */,
+				0863DF3024959BE300C35B79 /* LpsCfgAppConfig+CoreDataProperties.swift in Sources */,
+				08CF8CB32497073F005CD53C /* cartTableViewCell.swift in Sources */,
+				081AB5642494FE7E005DB1DE /* ExtensionForAddDiscountViewController.swift in Sources */,
+				082D7B6E24949CCF003D8336 /* flatPriceTableViewCell.swift in Sources */,
+				08C1704624966BD40055F526 /* BillViewController.swift in Sources */,
+				082D7B3024945805003D8336 /* LatPayPOS.xcdatamodeld in Sources */,
+				082D7B5F24948FCF003D8336 /* ExtensionForCategoriesViewController.swift in Sources */,
+				08C1704424966BC60055F526 /* AddToCartViewController.swift in Sources */,
+				0863DF2924959BE300C35B79 /* FlatPrice+CoreDataClass.swift in Sources */,
+				082D7B5724948E3E003D8336 /* CategoriesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		082D7B2B24945805003D8336 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				082D7B2C24945805003D8336 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		082D7B3324945807003D8336 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				082D7B3424945807003D8336 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		082D7B3724945807003D8336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		082D7B3824945807003D8336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		082D7B3A24945807003D8336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22QZ4M4269;
+				INFOPLIST_FILE = LatPayPOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dss.LatPayPOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		082D7B3B24945807003D8336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22QZ4M4269;
+				INFOPLIST_FILE = LatPayPOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dss.LatPayPOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		082D7B1D24945805003D8336 /* Build configuration list for PBXProject "LatPayPOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082D7B3724945807003D8336 /* Debug */,
+				082D7B3824945807003D8336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		082D7B3924945807003D8336 /* Build configuration list for PBXNativeTarget "LatPayPOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082D7B3A24945807003D8336 /* Debug */,
+				082D7B3B24945807003D8336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		082D7B2E24945805003D8336 /* LatPayPOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				082D7B2F24945805003D8336 /* LatPayPOS.xcdatamodel */,
+			);
+			currentVersion = 082D7B2F24945805003D8336 /* LatPayPOS.xcdatamodel */;
+			path = LatPayPOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 082D7B1A24945805003D8336 /* Project object */;
+}
